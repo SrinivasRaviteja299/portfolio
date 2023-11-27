@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+    display: flex;
+    background-color: black;
+    color: whitesmoke;
+    justify-content: space-evenly;
+    line-height: 30px;
+    overflow: auto;
+    
+}
+.main li a{ 
+    text-decoration: none;
+    color: white;
+    
+}
+.main a:hover{
+    color: blue;
+    transition: 1s;
+}
+body{
+    background-image: url(images/83-838296_web-designer-professional-website-background-images.jpg);
+    background-size: cover;
+
+}
+#id11{
+    display: flex;
+    margin: 20px;
+}
+#id12 h1, #id12 h2{
+    color: white;
+    
+    margin-left: 50px;
+}
+#id12 h1{
+    margin-top: 50px;
+}
+#id13 h1, #id13 p{
+    color: white;
+    margin-left: 50px;
+   
+    text-align: center;
+}
+#id13 h1 marquee{
+    text-decoration: underline;
+}
+#id21{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    
+    padding: 30px;
+    border-radius: 20px;
+    font-size: large;
+    color: black;
+}
+#id23{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#id23 h2{
+    text-decoration: underline;
+}
+#id24{
+    margin-left: 50px;
+}
+#id24 td{
+    padding: 10px;
+}
+#id25{
+    text-align: center;
+    font-size: larger;
+    font-family: sans-serif;
+    
+   
+}
+#id31{
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding: 50px;
+    color: rgb(0, 0, 203);
+    background-color: skyblue;
+    border-radius: 10%;
+}
+#id31 button{
+    color: whitesmoke;
+    background-color: blueviolet;
+    border-radius: 10px;
+    height: 30px;
+        
+}
+#id41{
+    margin: 100px;
+    margin-top: 150px;
+    
+
+}
+#id41 h1{
+    text-decoration: underline;
+}
+#id41 p{
+    display: list-item;
+    list-style-position: inside;
+    color: ghostwhite;
+}
+#id41 h1{
+    color: brown;
+}
+.main{
+    
+}
+.project{
+    background-image: url(images/loft-interior-background-old-wall_88088-718.avif);
+    background-size: cover;
+    background-position: center;
+}
+.about{
+    background-image: url(images/joanna-kosinska-9gfGDbxuqrU-unsplash.jpg);
+    background-position: center;
+    background-blend-mode: color-burn;
+}
+.contact{
+    background-image: url(images/Download\ Abstract\ Wallpaper\ 1980x1080\ Wallpoper\ 417298.gif);
+}
